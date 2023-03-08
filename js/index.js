@@ -1,0 +1,1 @@
+alert('teste de mensagem!'); /*sintaxe em JS, aspas simple=texto*/

@@ -1,0 +1,11 @@
+Aula 2 - tipos de saida
+
+Existem algumas maneiras de aplicar texto no html que são:
+
+innerHTML -  Aplica-se uma id no html e o texto no JS;
+
+document.whirte - Aplica-se apenas no HTML, ele é mais utilizado em testes e aceita funções;
+
+alert -  Aplica-se no html e o texto no js, também aceita funções, podem ser aplicados com aspas simples e duplas;
+
+console.log - Bem parecido com o "alert", porém funciona como resposta do navegador, ele não aparece na tela do projeto.

@@ -1,0 +1,21 @@
+Aula 4 - sintaxe
+
+Adiferença básica de uma distinção de número e um texto são as aspas duplas.
+ex: 
+console.log(1+8);
+	=> 9
+console.log("1+8");
+	=>1+8
+
+	No Javascript é utilizado variaveis e essas variáveis são usadas para
+armazenar valores de dados. Para declarar uma variavel utilizamos três
+palavras chaves: var let const
+
+	->JS é case sensitive = senssivel a maiusculo e minusculo
+	->Não pode usar o "-" hifen em declaração de variavel por ele ser reservado
+para subitração. Caso queira fazer palavras compostas utilize o camelcase ou 
+utilize o "_" underline. 
+
+	ex:
+	textoTeste ou texto_teste
+

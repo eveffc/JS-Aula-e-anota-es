@@ -1,0 +1,28 @@
+ Aula 1 - Javascript interno e externo.
+    Java é uma linguagem de programação para interatividade do site, ele não cria app independente.
+Existem duas formas de se colocar o JS em uma página: Js interno e js externo, bem parecido com o css:
+
+Js Interno - Ir body > script => colocar o código Js para ser interpretado, ou seja o Js dentro da própria página.
+
+<body> 
+    <script>
+        Codigo Js
+    </script>
+</body>
+
+
+Js externo - Mais usual, ele fica em uma página externa ao html, para acessar é preciso referenciar dentro do script.
+
+<body>
+    <script src="pasta/nome do arquivo.js"></scipt>
+</body>
+
+
+     O código javascrip, diferente do css que é referenciado no "head", é referenciado no "body", no final do documento, antes do fechamento do "body", porque ele afeta diretamente o que apararece dento do html e colocando ao final dá a garantia de que ele não irá modificar o html, além do site rodar mais rápido por ser mais pesado.
+    
+
+Para gerar comentários em js é utilizado = /* seu comentário */
+
+refereniando
+src = utilizado para o Js assim como para imagens
+href = utilizado para css assim como para links

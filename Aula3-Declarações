@@ -1,0 +1,48 @@
+	Declarações em um programa de computador é uma lista de instruções a serem
+interpretadas por um navegado.
+
+	Até algum tempo o único modo que um JS poderia ser executado era pelo navegador,
+ele era o unico capaz de interpretar e mostrar algum resultado, recentemente  js 
+sofreu algumas modificações e foi retirado dos navegadores e assim surgiu o Node.js
+que é uma forma de ler javascript fora de um navegador.
+
+	De modo geral o Java script é uma série de declarações que fazemos e que é interpretado
+por um navegador, essas declarações podem ser compostas de várias coisas como: valores, operadores
+funções, expressões, comentários,etc.
+
+			Sintaxe = É a maneira como o código deve ser escrito!
+
+	No JS o que separa uma declaração de outra é o ";", dessa forma a declaração poe ser feita tanto
+em coluna, quanto em uma única linha separados com o ";".
+
+ex:
+em coluna desta forma:
+let a,b,c; 
+a=5; 
+b=6; 
+c=7;
+ou em uma só linha assim: 
+let a,b,c; a=5; b=6; c=7; 
+
+	Outra coisa a pontuar é que no Js é que ignora os espaços vazios, havendo um espaço vazio é ignorado e 
+não modifica em nada.
+ex:
+	let pessoa = "dimitri" ;
+	let pessoa="dimitri";
+
+	Além disso eles aceitam quebra de linha, contanto que haja o termino da declaração ";"
+ex:
+document.getElementById("text").innerHTML=
+"Teste de <b> saída em HTML!</b>"
+
+
+	Funciona, também em bloco de função:
+ex:
+function minhafucao(){
+	document.write(5+5);
+	document.write(5+5);
+	document.write(5+5);
+}
+
+
+
